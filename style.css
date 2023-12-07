@@ -1,0 +1,46 @@
+body, h1, p, ul, li {
+    background-color: rgb(23, 172, 209);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(20, 20, 20, 0.918);
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: azure;
+}
+
+li {
+    margin-right: 20px;
+    padding: 2px;
+    color: rgb(65, 8, 65);
+}
+
+a {
+    color: white;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    justify-content: center;
+    background-color: rgb(192, 86, 15);
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.dark {
+    color: grey;
+}
