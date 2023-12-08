@@ -22,6 +22,15 @@
     <main>
         <h3>Apathy's a tragedy and boredom is a crime~</h3>
         <p>Anything and Everything, all of the time!</p>
+        <p id="demo">Wanna cookie???</p>
+
+        <script>
+        document.getElementById("demo").addEventListener("click", myFunction);
+        
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Virtual cookie :p";
+        }
+        </script>
     </main>
     <footer>
         <p>Google wishes to know every thought u think</p>
