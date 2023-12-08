@@ -23,7 +23,16 @@
 
         <footer>
             <h3> Apathy and nihilism... all of the time...</h3>
-            <p> I had to censor this a lot from the original inspiration because I don't know what will get me in trouble </p>
+            
+            <p id="demo">Click here for the meaning of life</p>
+
+            <script>
+            document.getElementById("demo").addEventListener("click", myFunction);
+            
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "'   '";
+            }
+            </script>
         </footer>
     </body>
 
