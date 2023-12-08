@@ -20,7 +20,15 @@
 
         <footer>
             <h3>Sunshine and Rainbows, all of the time :)</h3>
-            <p> Hello there! Have you every heard the tragedy of Darth Plagueis the Wise?</p>
+            <p id="demo"> Hello there! Have you every heard the tragedy of Darth Plagueis the Wise?</p>
+
+            <script>
+            document.getElementById("demo").addEventListener("click", myFunction);
+            
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "Not from a Jedi....";
+            }
+            </script>
         </footer>
     </body>
 </html>
