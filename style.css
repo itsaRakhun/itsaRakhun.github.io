@@ -33,6 +33,16 @@ main {
     padding: 10px;
 }
 
+@keyframes myAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.myElement {
+    animation: myAnimation 2s infinite;
+}
+
 footer {
     justify-content: center;
     background-color: rgb(192, 86, 15);
